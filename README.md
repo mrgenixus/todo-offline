@@ -6,7 +6,7 @@ Ruby Version 2.5.0
 ## Dependencies
 
 ### Required
-- postgresql version 9.3 or newer (compatible with 10)
+- postgresql version 9.4 or newer (compatible with 10)
 
 ## Getting Running
 ###Ruby Dependencies
