@@ -1,24 +1,23 @@
-# README
+# Todo-offline (online)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails version 5.1.5
+Ruby Version 2.5.0
 
-Things you may want to cover:
+## Dependencies
 
-* Ruby version
+### Required
+- postgresql version 9.3 or newer (compatible with 10)
 
-* System dependencies
+## Getting Running
+###Ruby Dependencies
 
-* Configuration
+```
+$ bundle install
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Application Configuration
+1. Add Database Config:
+```
+    cp config/database.yml.default config/database.yml
+```
+2. confirm the settings in this file are compatible with your database
